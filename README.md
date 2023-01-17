@@ -15,7 +15,6 @@ This is a template for a NextJS frontend. It should be paired with this [Express
 ### Frameworks
 
 - [Next.js](https://nextjs.org/) – React framework for building performant apps with the best developer experience
-- [Passport.js](https://www.passportjs.org/) – Handle user authentication with ease with providers like Google, Twitter, GitHub, etc.
 
 ### Platforms
 
