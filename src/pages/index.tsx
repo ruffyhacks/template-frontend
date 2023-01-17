@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <Favicon />
       </Head>
       <main>
-        <div> Generate custom at-home workouts. </div>
+        <h1> Home Page </h1>
         <br></br>
         <div> <Link href="/login"> Login </Link></div>
       </main>
