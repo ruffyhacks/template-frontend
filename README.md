@@ -3,9 +3,13 @@ This is a template for a NextJS frontend. It should be paired with this [Express
 
 ## How to use
 
-- Set up your project with this code and link to a new Github repo
-- Set up Railway -- create a new Railway project and link to your new Github repo
-- Swap out the environment varialbes in `.env`
+- Clone this project and then push it to a new remote
+- Project setup
+  - Start a new railway project and link it to your new remote
+  - Add a Postgres db to your new project
+  - If needed, add another Github repo to your project for the [backend](https://github.com/ruffyhacks/template-backend)
+- Create a .env file for your variables (use .env.example as a guide)
+- Migrate the database `npx prisma migrate dev --name init`
 - Run the app locally `npm run dev`
 
 ## Tech Stack + Features
