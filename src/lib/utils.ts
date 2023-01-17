@@ -72,14 +72,6 @@ export function convertMillis(start_ms: number) {
     'minutes': minutes,
     'seconds': seconds,
   }
-  // var btn_txt = ''
 
-  // if (hours > 0) {
-  //   btn_txt += [Math.floor(hours).toString().padStart(2, '0'), ":", Math.floor(minutes).toString().padStart(2, '0'), ":", Math.floor(seconds).toString().padStart(2, '0')].join('')
-  // } else {
-  //   btn_txt += [Math.floor(hours).toString().padStart(2, '0'), ":", Math.floor(minutes).toString().padStart(2, '0'), ":",Math.floor(seconds).toString().padStart(2, '0')].join('')
-  // }
-  
-  // return btn_txt
   return time
 }

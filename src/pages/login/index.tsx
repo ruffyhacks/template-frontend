@@ -10,7 +10,6 @@ const LoginPage: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Login</title>
-        {/* <meta name="description" content="Synthesize and share video summaries." /> */}
         <Favicon />
       </Head>
 

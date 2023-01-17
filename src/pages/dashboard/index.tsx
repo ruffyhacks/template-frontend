@@ -9,7 +9,6 @@ type PageProps = {
 const DashboardPage: NextPage<PageProps> = ({ msg }) => {
 
   return (
-    // <div className={styles.container}> 
     <div>
       <h1> Dashboard </h1>
       <div> Status: { msg } </div>
@@ -24,7 +23,6 @@ export async function getServerSideProps(context: GetServerSidePropsContext) {
   try {
     // Replace with /api/status
     const user = await axios.get(`${BACKEND_URL}/api/auth/status`, { withCredentials: true })
-    console.log("User:" + user)
     msg = user
   } catch (err) {
     console.log("Error: " + err.response.data.msg)
