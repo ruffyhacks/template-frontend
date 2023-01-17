@@ -4,9 +4,7 @@ This is a template for a NextJS frontend. It should be paired with this [Express
 ## How to use
 
 - Set up your project with this code and link to a new Github repo
-- Set up Railway
-  - [Provision a Postgres container on Railway](https://dev.new)
-  - Create a new Railway project and link to your new Github repo
+- Set up Railway -- create a new Railway project and link to your new Github repo
 - Swap out the environment varialbes in `.env`
 - Run the app locally `npm run dev`
 
