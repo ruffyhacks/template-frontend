@@ -24,6 +24,12 @@ This is a template for a NextJS frontend. It should be paired with this [Express
 - [TypeScript](https://www.typescriptlang.org/) – Static type checker for end-to-end typesafety
 - [ESLint](https://eslint.org/) – Pluggable linter for Next.js and TypeScript
 
+### Capabilities
+
+- Login & Sessions - enable users to log into the app and store a session for next time
+- Registration - enable new users to sign up
+- *Coming Soon* File Upload - upload a file to AWS and save the file's AWS url in your database
+
 ## Author
 
 - Rafi Lurie ([@rafilurie](https://twitter.com/rafilikeruffy))
