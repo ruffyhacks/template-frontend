@@ -1,26 +1,30 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import { NextPage } from 'next'
-import styles from '../styles/Home.module.css'
-import Favicon from '../components/Favicon'
+import Head from "next/head";
+import Link from "next/link";
+import { NextPage } from "next";
+import styles from "../styles/Home.module.css";
+import Favicon from "../components/Favicon";
 
 const Home: NextPage = () => {
+	return (
+		<div className={styles.container}>
+			<Head>
+				<title>Webapp Template</title>
+				<meta
+					name="description"
+					content="A template for full-stack NextJS apps."
+				/>
+				<Favicon />
+			</Head>
+			<main>
+				<h1> Home Page </h1>
+				<br></br>
+				<div>
+					{" "}
+					<Link href="/login"> Login </Link>
+				</div>
+			</main>
+		</div>
+	);
+};
 
-  return (
-    <div className={styles.container}> 
-      <Head>
-        <title>Webapp Template</title>
-        <meta name="description" content="A template for full-stack NextJS apps." />
-        <Favicon />
-      </Head>
-      <main>
-        <h1> Home Page </h1>
-        <br></br>
-        <div> <Link href="/login"> Login </Link></div>
-      </main>
-    </div>
-    
-  )
-}
-
-export default Home
+export default Home;

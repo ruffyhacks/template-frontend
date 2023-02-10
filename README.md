@@ -1,4 +1,5 @@
 ## Introduction
+
 This is a template for a NextJS frontend. It should be paired with this [Express backend template](https://github.com/ruffyhacks/template-backend) and a Posgresql database.
 
 ## How to use
@@ -22,17 +23,16 @@ This is a template for a NextJS frontend. It should be paired with this [Express
 
 - [Railway](https://railway.app/) – Deploy the app with every Github push + easily provision a PostgreSQL database (no login required)
 
-
 ### Code Quality
 
 - [TypeScript](https://www.typescriptlang.org/) – Static type checker for end-to-end typesafety
 - [ESLint](https://eslint.org/) – Pluggable linter for Next.js and TypeScript
 
-### Capabilities
+### Features
 
 - Login & Sessions - enable users to log into the app and store a session for next time
 - Registration - enable new users to sign up
-- *Coming Soon* File Upload - upload a file to AWS and save the file's AWS url in your database
+- _Coming Soon_ File Upload - upload a file to AWS and save the file's AWS url in your database
 
 ## Author
 
